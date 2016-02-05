@@ -1,0 +1,9 @@
+module opennms {
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:opennms";
+    prefix "opennms";
+
+    revision "2015-01-05" {
+        description "Initial revision of opennms model";
+    }
+}
