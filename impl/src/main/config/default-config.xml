@@ -19,10 +19,10 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
         <module>
           <type xmlns:prefix="urn:opendaylight:params:xml:ns:yang:opennms:impl">prefix:opennms</type>
           <name>opennms-default</name>
-          <broker>
-            <type xmlns:binding="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">binding:binding-broker-osgi-registry</type>
-            <name>binding-osgi-broker</name>
-          </broker>
+          <data-broker>
+            <type xmlns:binding="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">binding:binding-async-data-broker</type>
+            <name>binding-data-broker</name>
+          </data-broker>
         </module>
       </modules>
     </data>
